@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACA102FA-AC5B-8E1B-4A47-AE8E56D61105" schemaObject="A6094D18-EF8D-45FB-37FF-1FB4EB123BB9" name="LECLIENT">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>LECLIENT</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOM" id="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>NOM</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<constraintName>CK_CLIENT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="LENGTH(NOM)&gt;2"/>
+<implementationDef dbType="Oracle Database 11g" definition="LENGTH(NOM)&gt;2"/>
+</checkConstraint>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRENOM" id="5BF9BA5C-D311-DA72-1491-18731CB7711B">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>PRENOM</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_UNIQUE" id="0742240D-8C78-CCF7-980D-1840D935BD28">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>ID_UNIQUE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DE_NAISSANCE" id="0661006B-6205-5165-DBBD-20A72455CC71">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>DATE_DE_NAISSANCE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_DE_TELEPHONE" id="B0A8F461-53A0-4FF1-F1C8-E33141F18E6D">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>NUM_DE_TELEPHONE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESSE" id="F6ED702B-4D40-F845-F621-BEF08392FE0C">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>ADRESSE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAIL" id="6F35A648-2775-0650-CA1B-C1F5AA82AD22">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>MAIL</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DE_CREATION" id="D73A7493-EAB3-4571-3596-E3E8BABB0701">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>LECLIENT</sourceObjSchema>
+<sourceObjName>DATE_DE_CREATION</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B03439F0-4FAB-3D3C-AC77-C30F9D44B52D" name="PK_CLIENT">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>PK_CLIENT</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED53BB9D-108B-5FC3-BA17-9C59728CD36F" name="UK">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>UK</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4"/>
+<colUsage columnID="0742240D-8C78-CCF7-980D-1840D935BD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEDFB578-EB6F-8F93-5295-0212ACD8051A" schemaObject="A6094D18-EF8D-45FB-37FF-1FB4EB123BB9" name="PK_CLIENT">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>PK_CLIENT</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46E8EEB3-7B35-824A-789C-C493C54C5E70" schemaObject="A6094D18-EF8D-45FB-37FF-1FB4EB123BB9" name="UK">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>UK</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4"/>
+<colUsage columnID="0742240D-8C78-CCF7-980D-1840D935BD28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

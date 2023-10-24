@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="NOUR" directorySegmentName="seg_0" id="CD006208-6AF5-FEF4-03BD-8F4FF91DE979">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjName>NOUR</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<schemaObject>A6094D18-EF8D-45FB-37FF-1FB4EB123BB9</schemaObject>
+<privileges>UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

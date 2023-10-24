@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LECLIENT" directorySegmentName="seg_0" id="ACA102FA-AC5B-8E1B-4A47-AE8E56D61105">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<schemaObject>A6094D18-EF8D-45FB-37FF-1FB4EB123BB9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>51BAA3B8-6E20-58D2-87F3-182BBB94669C</segment>
+<tableSpace>8D72BCC1-5CB0-6F87-3C80-ECADE0ABF923</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_DE_NAISSANCE" id="0661006B-6205-5165-DBBD-20A72455CC71">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_UNIQUE" id="0742240D-8C78-CCF7-980D-1840D935BD28">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="47A84646-CC8E-18BE-7E0E-7B7F7416F8F4">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRENOM" id="5BF9BA5C-D311-DA72-1491-18731CB7711B">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAIL" id="6F35A648-2775-0650-CA1B-C1F5AA82AD22">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DE_TELEPHONE" id="B0A8F461-53A0-4FF1-F1C8-E33141F18E6D">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_DE_CREATION" id="D73A7493-EAB3-4571-3596-E3E8BABB0701">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ADRESSE" id="F6ED702B-4D40-F845-F621-BEF08392FE0C">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UK" id="46E8EEB3-7B35-824A-789C-C493C54C5E70">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<schemaObject>A6094D18-EF8D-45FB-37FF-1FB4EB123BB9</schemaObject>
+<segment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</segment>
+<tableSpace>8D72BCC1-5CB0-6F87-3C80-ECADE0ABF923</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CLIENT" id="CEDFB578-EB6F-8F93-5295-0212ACD8051A">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<schemaObject>A6094D18-EF8D-45FB-37FF-1FB4EB123BB9</schemaObject>
+<segment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</segment>
+<tableSpace>8D72BCC1-5CB0-6F87-3C80-ECADE0ABF923</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CLIENT" id="B03439F0-4FAB-3D3C-AC77-C30F9D44B52D">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<segment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</segment>
+<tableSpace>8D72BCC1-5CB0-6F87-3C80-ECADE0ABF923</tableSpace>
+<existingIndex>CEDFB578-EB6F-8F93-5295-0212ACD8051A</existingIndex>
+<indexSegment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UK" id="ED53BB9D-108B-5FC3-BA17-9C59728CD36F">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-24 20:15:21 UTC</createdTime>
+<ownerDesignName>GESTIONDESCLIENTS</ownerDesignName>
+<segment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</segment>
+<tableSpace>8D72BCC1-5CB0-6F87-3C80-ECADE0ABF923</tableSpace>
+<existingIndex>46E8EEB3-7B35-824A-789C-C493C54C5E70</existingIndex>
+<indexSegment>8174ACCE-6F2F-4209-5B23-0CC6E2459B6E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>
