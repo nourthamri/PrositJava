@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPLOYES" directorySegmentName="seg_0" id="8272EEB5-8C55-DD6A-CD22-EB276359217C">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3C2940AE-4145-04D7-F38F-99976F944C53</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRENOM" id="2584A09F-8B59-B27D-0909-3CE6472C19E2">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="5C697992-B7FB-98D2-8F4A-1B788AD81A34">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOT_DE_PASSE" id="D89466EA-1F5A-1F3E-1977-BDB016154F08">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EMPLOYE" id="DCC8AB35-B910-6C37-7285-C77B720671B7">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALAIRE" id="E23C05B7-FA5E-D655-6A71-793B8383EE43">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPONSE" id="E82EDD5E-19C2-A6A5-0A84-CBC4D73E1AA8">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUESTION" id="EEBFD1C9-EB2A-C870-C15F-C9FC7FB779AA">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_RECLAMATION" id="F1052429-E5B3-EDF9-F18D-A696732BE130">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMPLOYES_PK" id="476E0378-B6B0-4D26-3A1A-9AE0AA0BDD7F">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NM_RECLAMATION_FK_02" id="E3F316AC-89E0-816C-9F69-816EA96F1591">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYES_PK" id="9186EAA3-236F-447D-DCFF-9C70A945A785">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<existingIndex>476E0378-B6B0-4D26-3A1A-9AE0AA0BDD7F</existingIndex>
+<indexSegment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

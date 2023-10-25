@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7F045F0-2DC5-E88D-428D-AE2D7E364F7D" schemaObject="41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59" name="RECLAMATION">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>RECLAMATION</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATUS_RECLAMATION" id="053CAC84-0A61-2A1E-FD9C-CBA0B4BDFF8F">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>RECLAMATION</sourceObjSchema>
+<sourceObjName>STATUS_RECLAMATION</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTAIRES" id="D5DE91AB-AB0E-28B1-A8D1-19EA933D41DF">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>RECLAMATION</sourceObjSchema>
+<sourceObjName>COMMENTAIRES</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_REC" id="7CF3336E-17F9-BA58-E71A-FFF062D79C4F">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>RECLAMATION</sourceObjSchema>
+<sourceObjName>DATE_REC</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOTIF_REC" id="79BBAEA3-000D-3A3B-E537-2D10CDDFF085">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>RECLAMATION</sourceObjSchema>
+<sourceObjName>MOTIF_REC</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_REC" id="170A0D8B-E138-AD21-F766-3F17CA9075B7">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>RECLAMATION</sourceObjSchema>
+<sourceObjName>NUM_REC</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E2598EA-5DA0-5C17-CCBD-4DFDFB077218" name="RECLAMATION_PK">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>RECLAMATION_PK</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170A0D8B-E138-AD21-F766-3F17CA9075B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81847D09-BBE8-E6D3-1E6C-AC0FD279DC30" schemaObject="41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59" name="RECLAMATION_PK">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>RECLAMATION_PK</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="170A0D8B-E138-AD21-F766-3F17CA9075B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

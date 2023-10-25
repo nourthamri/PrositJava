@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="VALIDATION" id="942559A2-9F50-5872-8D25-199D02335E20" version="3.5">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 17:25:00 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>942559A2-9F50-5872-8D25-199D02335E20</designId>
+</OSDM_Design>

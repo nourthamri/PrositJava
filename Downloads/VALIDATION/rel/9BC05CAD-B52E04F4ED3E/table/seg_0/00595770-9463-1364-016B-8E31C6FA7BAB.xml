@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00595770-9463-1364-016B-8E31C6FA7BAB" schemaObject="41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59" name="COMMANDES">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>COMMANDES</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_COMMANDE" id="F8B60E6A-48D8-FE25-C8AA-3244F1836FC8">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>NUMERO_COMMANDE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_COMMANDE" id="34F590E3-0182-6172-E93D-DFD488C856DB">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>DATE_COMMANDE</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUTS" id="A4519C4E-FB84-D209-F5FD-42B5BA846AD5">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>STATUTS</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTE_PRODUITS_CMND" id="CAB33881-1CD3-EF38-7365-0FFAC2AC66A3">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>LISTE_PRODUITS_CMND</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENT" id="9D139840-097E-3055-2C23-3BC2062555A9">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>ID_CLIENT</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BCF4F5D-7A5E-0A4E-30F3-410CF21B6ADE" referredColumn="9259F2E2-6F7D-265E-D7C0-EBFDAA445032"/>
+</associations>
+</Column>
+<Column name="CIN_LIVREUR" id="5AD59BC1-3874-CB6E-5F1A-DEBA3CB1610F">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>COMMANDES</sourceObjSchema>
+<sourceObjName>CIN_LIVREUR</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB61A638-F707-CAEA-9CEC-B10375A6144B" referredColumn="821AB086-83C9-6B23-FAD3-2261C4A0517C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0B9C06E-4800-A513-E167-1D81D623C9FA" name="COMMANDES_PK">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>COMMANDES_PK</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8B60E6A-48D8-FE25-C8AA-3244F1836FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BCAA275-D24F-DAE3-F950-E95C829D4B0A" schemaObject="41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59" name="COMMANDES_PK1">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>COMMANDES_PK1</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8B60E6A-48D8-FE25-C8AA-3244F1836FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="453DB444-AEC9-572F-F227-BAC4551DAAE1" name="CIN_LIVREUR_FK_01">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AD59BC1-3874-CB6E-5F1A-DEBA3CB1610F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="680063BA-74CD-4966-930F-44FE09F33EF2" name="ID_CLIENT">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D139840-097E-3055-2C23-3BC2062555A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

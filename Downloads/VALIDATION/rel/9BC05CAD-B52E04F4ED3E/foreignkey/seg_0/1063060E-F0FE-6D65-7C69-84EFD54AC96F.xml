@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1063060E-F0FE-6D65-7C69-84EFD54AC96F" containerWithKeyObject="8272EEB5-8C55-DD6A-CD22-EB276359217C" localFKIndex="E3F316AC-89E0-816C-9F69-816EA96F1591" name="NM_RECLAMATION_FK_02">
+<sourceConnName>Project2A</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>NM_RECLAMATION_FK_02</sourceObjName>
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<referredTableLongName>NOUR.RECLAMATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7F045F0-2DC5-E88D-428D-AE2D7E364F7D</referredTableID>
+<keyObject>7E2598EA-5DA0-5C17-CCBD-4DFDFB077218</keyObject>
+<referredKeyID>7E2598EA-5DA0-5C17-CCBD-4DFDFB077218</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUM_REC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

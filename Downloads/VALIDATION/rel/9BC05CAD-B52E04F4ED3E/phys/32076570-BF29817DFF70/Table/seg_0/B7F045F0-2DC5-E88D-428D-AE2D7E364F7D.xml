@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RECLAMATION" directorySegmentName="seg_0" id="B7F045F0-2DC5-E88D-428D-AE2D7E364F7D">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3C2940AE-4145-04D7-F38F-99976F944C53</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS_RECLAMATION" id="053CAC84-0A61-2A1E-FD9C-CBA0B4BDFF8F">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_REC" id="170A0D8B-E138-AD21-F766-3F17CA9075B7">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOTIF_REC" id="79BBAEA3-000D-3A3B-E537-2D10CDDFF085">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_REC" id="7CF3336E-17F9-BA58-E71A-FFF062D79C4F">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENTAIRES" id="D5DE91AB-AB0E-28B1-A8D1-19EA933D41DF">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RECLAMATION_PK" id="81847D09-BBE8-E6D3-1E6C-AC0FD279DC30">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RECLAMATION_PK" id="7E2598EA-5DA0-5C17-CCBD-4DFDFB077218">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<existingIndex>81847D09-BBE8-E6D3-1E6C-AC0FD279DC30</existingIndex>
+<indexSegment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

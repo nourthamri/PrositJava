@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTT" directorySegmentName="seg_0" id="1A6847C9-861A-9842-9D00-B4B0D1EA8B50">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3C2940AE-4145-04D7-F38F-99976F944C53</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTACT_NUM_TEL" id="3D9F6EC0-4D5F-2807-B68C-E6BB9B3B1F09">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EMPLOYE" id="3E620217-1C41-85C4-7E77-C580AD8B8981">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_NAISS" id="7B7E3490-D8A4-01DA-4507-5894559E4C87">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAIL" id="8968D4CA-787B-AA37-EB94-3C0DD5D54668">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9259F2E2-6F7D-265E-D7C0-EBFDAA445032">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRENOM" id="D13567A1-70A0-EE40-9D3C-AA156C56FF34">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM" id="D1C05793-C8E4-3EAE-AA7B-EBC679A0C6B4">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LIVREUR" id="E630C69E-D680-C2B7-36AB-1C362539D585">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADRESSE" id="F1B2724B-7B9A-B37E-7C61-A56F8F3117C2">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:22 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTT_PK" id="F3774ABD-B457-307E-9F12-790982173860">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<schemaObject>41FC50D6-6CAC-E758-1DBB-AACDAA7F3B59</schemaObject>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ID_EMPLOYE" id="658B826B-2B4E-79D9-8088-830867E48E43">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ID_LIVREUR" id="8F904C4E-699A-3A4C-3FD6-3ADB493462D7">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTT_PK" id="BBFAB400-265B-6C68-9858-9FB2A904ADCD">
+<createdBy>nour thamri</createdBy>
+<createdTime>2023-10-25 22:46:23 UTC</createdTime>
+<ownerDesignName>VALIDATION</ownerDesignName>
+<segment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</segment>
+<tableSpace>F0FEC041-3460-8090-DCA1-436D1BE7F63B</tableSpace>
+<existingIndex>F3774ABD-B457-307E-9F12-790982173860</existingIndex>
+<indexSegment>2A15E5F7-57A7-10CD-29D5-E9D9B77B7BCA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
